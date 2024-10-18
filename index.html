@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css">
+    <style>
+        table {
+            border-spacing: 2px;
+            /* border-collapse: separate; */
+        }
+        tr, th {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            width: 100px;
+            text-align: center;
+            font-weight: normal;
+            padding: 10px 20px 10px 20px;
+        }
+        th {
+            font-weight: bold;
+        }
+        
+
+        tr:nth-child(even) {
+            background-color: #d5d5d5;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <!-- <table>
+        <tr style="background-color: rgb(46, 46, 46);">
+            <th></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+        </tr>
+        <tr>
+            <th scope="row" style="background-color: rgb(46, 46, 46);">1pm</th>
+            <th style="background-color: rgb(179, 179, 179);">Matc</th>
+            <th style="background-color: rgb(179, 179, 179);">1pm</th>
+            <th style="background-color: rgb(179, 179, 179);">1pm</th>
+        </tr>
+        <tr>
+            <th scope="row" style="background-color: rgb(46, 46, 46);">1pm</th>
+            <th style="background-color: rgb(223, 223, 223);">1pm</th>
+            <th style="background-color: rgb(223, 223, 223);">1pm</th>
+            <th style="background-color: rgb(223, 223, 223);">1pm</th>
+        </tr>
+    </table> -->
+
+    <table>
+        <tr style="background-color: #2f2f2f; color: white;">
+            <th scope="col" style="width: 20px;">Time</th>
+            <th scope="col" style="text-align: left;">Mon</th>
+            <th scope="col" style="text-align: left;">Tue</th>
+            <th scope="col" style="text-align: left;">Wed</th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <td>breakfast</td>
+            <td>breakfast</td>
+            <td>breakfast</td>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <td rowspan="2" style="background-color: rgb(140, 216, 163);">breakfast</td>
+            <td rowspan="3" style="background-color: rgb(249, 199, 152);">breakfast</td>
+            <td rowspan="2" style="background-color: rgb(140, 216, 163);">breakfast</td>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <td rowspan="2" style="background-color: rgb(182, 240, 255);">breakfast</td>
+            <td rowspan="2" style="background-color: rgb(182, 240, 255);">breakfast</thd>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th scope="row">7:30 AM</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+
+</body>
+
+</html>
